@@ -16,7 +16,7 @@ export class TransportationService {
 
         setTimeout(() => {
             this.rideManager.completeRide(vehicle);
-        }, 2000);
+        }, 1000);
     }
 }
 
@@ -30,14 +30,14 @@ transportService.bookRide(new RegularCar(), 'Home', 'Office');
 setTimeout(() => {
     console.log('\nBooking with Luxury Car:');
     transportService.bookRide(new LuxuryCar(), 'Hotel', 'Airport');
-}, 3000);
+}, 1000);
 
 setTimeout(() => {
     console.log('\nBooking with Hybrid Car:');
     transportService.bookRide(new HybridCar(), 'Mall', 'Restaurant');
-}, 6000);
+}, 2000);
 
 setTimeout(() => {
     console.log('\nBooking with Electric Car:');
     transportService.bookRide(new ElectricCar(), 'Office', 'Home');
-}, 9000);
+}, 3000);

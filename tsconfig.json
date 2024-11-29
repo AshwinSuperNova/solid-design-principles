@@ -1,12 +1,11 @@
 {
     "compilerOptions": {
-        "rootDir": "./src",
-        "sourceMap": true,
-        "outDir": "./dist",
-        "strict": true,
-        "moduleResolution": "node",
-        "esModuleInterop": true,
-        "target": "es2020",
-        "module": "commonjs"
-    }
-}
+      "target": "es6",                
+      "module": "commonjs",           
+      "outDir": "./dist",             
+      "rootDir": "./src",             
+      "sourceMap": true               
+    },
+    "include": ["src/**/*", "src/Single Responsibilty principle", "src/Open Closed Principle", "src/Liskov Substitution Principle", "src/Open Closed Principle"]
+  }
+  

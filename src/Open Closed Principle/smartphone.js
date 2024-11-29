@@ -28,9 +28,9 @@ var Smartphone = /** @class */ (function () {
     return Smartphone;
 }());
 var smartphone = new Smartphone();
-smartphone.installApp(new apps_1.MessagingApp('msg1', 'WhatsChat'));
-smartphone.installApp(new apps_2.GameApp('game1', 'PuzzleMania'));
-smartphone.installApp(new apps_3.MusicApp('music1', 'MusicStream'));
+smartphone.installApp(new apps_1.MessagingApp('msg1', 'Whatsapp'));
+smartphone.installApp(new apps_2.GameApp('game1', 'free fire'));
+smartphone.installApp(new apps_3.MusicApp('music1', 'spotify'));
 smartphone.showInstalledApps();
 console.log('\nUsing Apps:');
 smartphone.openApp('msg1');

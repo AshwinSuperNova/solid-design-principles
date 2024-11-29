@@ -38,9 +38,9 @@ class Smartphone {
 
 const smartphone = new Smartphone();
 
-smartphone.installApp(new MessagingApp('msg1', 'WhatsChat'));
-smartphone.installApp(new GameApp('game1', 'PuzzleMania'));
-smartphone.installApp(new MusicApp('music1', 'MusicStream'));
+smartphone.installApp(new MessagingApp('msg1', 'Whatsapp'));
+smartphone.installApp(new GameApp('game1', 'free fire'));
+smartphone.installApp(new MusicApp('music1', 'spotify'));
 smartphone.showInstalledApps();
 console.log('\nUsing Apps:');
 smartphone.openApp('msg1');

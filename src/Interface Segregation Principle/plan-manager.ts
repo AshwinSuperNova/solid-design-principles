@@ -49,5 +49,3 @@ const dataPlan = new DataPlan();
 const premiumPlan = new PremiumPlan();
 
 planManager.demonstratePlanFeatures('Basic Plan', basicPlan);
-planManager.demonstratePlanFeatures('Data Plan', dataPlan);
-planManager.demonstratePlanFeatures('Premium Plan', premiumPlan);

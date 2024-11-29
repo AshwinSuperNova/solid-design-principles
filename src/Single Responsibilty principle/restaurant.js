@@ -76,9 +76,9 @@ var Restaurant = /** @class */ (function () {
     return Restaurant;
 }());
 var restaurant = new Restaurant();
-var menuItems = [
+var menuItems1 = [
     { name: 'Pasta', price: 15.99 },
     { name: 'Salad', price: 8.99 },
     { name: 'Wine', price: 12.99 }
 ];
-restaurant.handleCustomerGroup(2, menuItems);
+restaurant.handleCustomerGroup(2, menuItems1);

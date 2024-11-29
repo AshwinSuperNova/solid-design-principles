@@ -1,3 +1,4 @@
+
 {
     "version": "0.2.0",
     "configurations": [
@@ -5,14 +6,11 @@
         "type": "node",
         "request": "launch",
         "name": "Debug TypeScript",
-        "program": "${workspaceFolder}/src/index.ts",
         "preLaunchTask": "tsc: build - tsconfig.json",
+        "program": "${workspaceFolder}/dist/index.js",
         "outFiles": ["${workspaceFolder}/dist/**/*.js"],
-        "sourceMaps": true,
-        "resolveSourceMapLocations": [
-          "${workspaceFolder}/**",
-          "!**/node_modules/**"
-        ]
+        "sourceMaps": true
       }
     ]
   }
+  

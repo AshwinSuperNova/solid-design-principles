@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var appliances_1 = require("./appliances");
-var appliances_2 = require("./appliances");
 var power_outlet_1 = require("./power-outlet");
 var KitchenManager = /** @class */ (function () {
     function KitchenManager(powerOutlet) {
@@ -31,12 +30,12 @@ var KitchenManager = /** @class */ (function () {
 var powerOutlet = new power_outlet_1.StandardPowerOutlet();
 var kitchenManager = new KitchenManager(powerOutlet);
 var fridge = new appliances_1.Refrigerator();
-var microwave = new appliances_2.Microwave();
+// const microwave = new Microwave();
 console.log('\nTesting Refrigerator:');
 kitchenManager.plugInAppliance(fridge);
 kitchenManager.useAppliance();
 kitchenManager.stopAppliance();
-console.log('\nTesting Microwave:');
-kitchenManager.plugInAppliance(microwave);
-kitchenManager.useAppliance();
-kitchenManager.stopAppliance();
+// console.log('\nTesting Microwave:');
+// kitchenManager.plugInAppliance(microwave);
+// kitchenManager.useAppliance();
+// kitchenManager.stopAppliance();

@@ -39,14 +39,14 @@ const powerOutlet = new StandardPowerOutlet();
 const kitchenManager = new KitchenManager(powerOutlet);
 
 const fridge = new Refrigerator();
-const microwave = new Microwave();
+// const microwave = new Microwave();
 
 console.log('\nTesting Refrigerator:');
 kitchenManager.plugInAppliance(fridge);
 kitchenManager.useAppliance();
 kitchenManager.stopAppliance();
 
-console.log('\nTesting Microwave:');
-kitchenManager.plugInAppliance(microwave);
-kitchenManager.useAppliance();
-kitchenManager.stopAppliance();
+// console.log('\nTesting Microwave:');
+// kitchenManager.plugInAppliance(microwave);
+// kitchenManager.useAppliance();
+// kitchenManager.stopAppliance();

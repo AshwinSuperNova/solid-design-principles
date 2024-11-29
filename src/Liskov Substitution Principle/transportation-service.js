@@ -12,7 +12,7 @@ var TransportationService = /** @class */ (function () {
         this.rideManager.startRideWithVehicle(vehicle, pickup, destination);
         setTimeout(function () {
             _this.rideManager.completeRide(vehicle);
-        }, 2000);
+        }, 1000);
     };
     return TransportationService;
 }());
@@ -23,12 +23,12 @@ transportService.bookRide(new vehicles_1.RegularCar(), 'Home', 'Office');
 setTimeout(function () {
     console.log('\nBooking with Luxury Car:');
     transportService.bookRide(new vehicles_1.LuxuryCar(), 'Hotel', 'Airport');
-}, 3000);
+}, 1000);
 setTimeout(function () {
     console.log('\nBooking with Hybrid Car:');
     transportService.bookRide(new vehicles_1.HybridCar(), 'Mall', 'Restaurant');
-}, 6000);
+}, 2000);
 setTimeout(function () {
     console.log('\nBooking with Electric Car:');
     transportService.bookRide(new vehicles_1.ElectricCar(), 'Office', 'Home');
-}, 9000);
+}, 3000);
